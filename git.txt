@@ -1,0 +1,15 @@
+Git Flow
+
+Configs de branchs
+
+Pull Requests / Templates para PR
+
+Code Review
+
+Plugin do VSCode
+
+GitHub CodeOwners
+
+SemanticVersioning (SemVer)
+
+Convencional Commits
