@@ -5,7 +5,9 @@ git config
 
 git flow feature start branch_name
 git flow feature finish branch_name
-git flow release start 0.1.0
-git flow release finish 0.1.0
+
+git flow release start tag_name (ex: 0.1.0)
+git flow release finish tag_name
+
 git flow hotfix start branch_name
 git flow hotfix finish branch_name

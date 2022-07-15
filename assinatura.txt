@@ -1,0 +1,22 @@
+Gerar senha:
+    gpg --full-generate-key
+
+Verifica se há chaves armazenadas:
+    gpg --list-secret-key --keyid-form LONG
+
+Pega chave public da Chave gpg
+    gpg --armor --export ID_KEY
+
+Add a chave ao git:
+    git config --global user.signingkey ID_KEY
+
+Insira no profile no bash_profile a variável de ambiente:
+    vim ~/.bash_profile
+    export GPG_TTY=$(tty)
+
+Assinar por padrão commits:
+    git config commit.gpgsign true // Apenas o repositorio.
+    git config --global commit.gpgsign true // Todos o repositorios.
+
+Assinar por padrão commits:
+    git config tag.gpgSign true // Todas tags.
